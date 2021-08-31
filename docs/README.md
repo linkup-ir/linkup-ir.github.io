@@ -49,12 +49,12 @@ Content-Type: application/json
 <!-- tabs:start -->
 #### **در صورت صحت اطلاعات ارسالی**
 ```http
-HTTP/1.1 200 OK
+HTTP/1.1 202 OK
 Content-Type: application/json
 
 {
     "data": {
-        "message": "با موفقیت تایید شد."
+        "message": "با موفقیت ثبت شد."
     },
     "success": true
 }
